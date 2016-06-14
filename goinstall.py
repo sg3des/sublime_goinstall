@@ -6,7 +6,5 @@ class goinstall(sublime_plugin.EventListener):
 		if view.file_name().endswith('.go') is not True:
 			return
 
-		print("goinstall %s"%view.file_name())
-
 		folder = os.path.dirname(view.file_name())
 		view.window().run_command('exec',{'cmd':['/bin/go',"install"],'working_dir':folder})
