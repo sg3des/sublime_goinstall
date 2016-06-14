@@ -1,2 +1,3 @@
-# sublime_goinstall
-sublime text plugin: on save execute `go install` for package
+# GOINSTALL - sublime text plugin
+very simple plugin: on save file with extension ".go" execute `go install`
+
